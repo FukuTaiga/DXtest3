@@ -161,17 +161,213 @@
                 {
                     "sampler" : 0,
                     "target" : {
+                        "node" : 0,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 0,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "setumeiAction",
+            "samplers" : [
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 48
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 49
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 50
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 1,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "zyairoAction",
+            "samplers" : [
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 51
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 52
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 53
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 2,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "aikon kibanAction",
+            "samplers" : [
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 54
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 55
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 56
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
                         "node" : 3,
                         "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 3,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 3,
+                        "path" : "scale"
                     }
                 }
             ],
             "name" : "cameraAction",
             "samplers" : [
                 {
+                    "input" : 57,
+                    "interpolation" : "LINEAR",
+                    "output" : 58
+                },
+                {
                     "input" : 47,
                     "interpolation" : "LINEAR",
-                    "output" : 48
+                    "output" : 59
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 60
+                }
+            ]
+        },
+        {
+            "channels" : [
+                {
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "rotation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 4,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "aikon kiban.001Action",
+            "samplers" : [
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 61
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 62
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 63
                 }
             ]
         },
@@ -183,14 +379,38 @@
                         "node" : 5,
                         "path" : "scale"
                     }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 5,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 5,
+                        "path" : "rotation"
+                    }
                 }
             ],
             "name" : "setumei1Action",
             "samplers" : [
                 {
-                    "input" : 49,
+                    "input" : 57,
                     "interpolation" : "LINEAR",
-                    "output" : 50
+                    "output" : 64
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 65
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 66
                 }
             ]
         },
@@ -202,14 +422,38 @@
                         "node" : 6,
                         "path" : "scale"
                     }
+                },
+                {
+                    "sampler" : 1,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "translation"
+                    }
+                },
+                {
+                    "sampler" : 2,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "rotation"
+                    }
                 }
             ],
             "name" : "setumei2Action",
             "samplers" : [
                 {
-                    "input" : 51,
+                    "input" : 57,
                     "interpolation" : "LINEAR",
-                    "output" : 52
+                    "output" : 67
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 68
+                },
+                {
+                    "input" : 47,
+                    "interpolation" : "LINEAR",
+                    "output" : 69
                 }
             ]
         }
@@ -904,45 +1148,75 @@
         {
             "bufferView" : 47,
             "componentType" : 5126,
-            "count" : 131,
+            "count" : 2,
             "max" : [
-                5.416666666666667
+                83.33333333333333
             ],
             "min" : [
-                0
+                6.666666666666667
             ],
             "type" : "SCALAR"
         },
         {
             "bufferView" : 48,
             "componentType" : 5126,
-            "count" : 131,
-            "type" : "VEC4"
+            "count" : 2,
+            "type" : "VEC3"
         },
         {
             "bufferView" : 49,
             "componentType" : 5126,
-            "count" : 151,
-            "max" : [
-                6.25
-            ],
-            "min" : [
-                0
-            ],
-            "type" : "SCALAR"
+            "count" : 2,
+            "type" : "VEC4"
         },
         {
             "bufferView" : 50,
             "componentType" : 5126,
-            "count" : 151,
+            "count" : 2,
             "type" : "VEC3"
         },
         {
             "bufferView" : 51,
             "componentType" : 5126,
-            "count" : 161,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 52,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 53,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 54,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 55,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 56,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 57,
+            "componentType" : 5126,
+            "count" : 2001,
             "max" : [
-                6.666666666666667
+                83.33333333333333
             ],
             "min" : [
                 0
@@ -950,10 +1224,76 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 52,
+            "bufferView" : 58,
             "componentType" : 5126,
-            "count" : 161,
+            "count" : 2001,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 59,
+            "componentType" : 5126,
+            "count" : 2,
             "type" : "VEC3"
+        },
+        {
+            "bufferView" : 60,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 61,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 62,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 63,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 64,
+            "componentType" : 5126,
+            "count" : 2001,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 65,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 66,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 67,
+            "componentType" : 5126,
+            "count" : 2001,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 68,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 69,
+            "componentType" : 5126,
+            "count" : 2,
+            "type" : "VEC4"
         }
     ],
     "bufferViews" : [
@@ -1194,38 +1534,123 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 524,
+            "byteLength" : 8,
             "byteOffset" : 11763564
         },
         {
             "buffer" : 0,
-            "byteLength" : 2096,
-            "byteOffset" : 11764088
+            "byteLength" : 24,
+            "byteOffset" : 11763572
         },
         {
             "buffer" : 0,
-            "byteLength" : 604,
-            "byteOffset" : 11766184
+            "byteLength" : 32,
+            "byteOffset" : 11763596
         },
         {
             "buffer" : 0,
-            "byteLength" : 1812,
-            "byteOffset" : 11766788
+            "byteLength" : 24,
+            "byteOffset" : 11763628
         },
         {
             "buffer" : 0,
-            "byteLength" : 644,
-            "byteOffset" : 11768600
+            "byteLength" : 24,
+            "byteOffset" : 11763652
         },
         {
             "buffer" : 0,
-            "byteLength" : 1932,
-            "byteOffset" : 11769244
+            "byteLength" : 32,
+            "byteOffset" : 11763676
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11763708
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11763732
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 11763756
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11763788
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8004,
+            "byteOffset" : 11763812
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32016,
+            "byteOffset" : 11771816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11803832
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11803856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11803880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 11803904
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11803936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24012,
+            "byteOffset" : 11803960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11827972
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 11827996
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24012,
+            "byteOffset" : 11828028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 11852040
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 11852064
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 11771176,
+            "byteLength" : 11852096,
             "uri" : "zyairosensa.bin"
         }
     ]
