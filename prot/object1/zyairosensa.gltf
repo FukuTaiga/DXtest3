@@ -14,7 +14,8 @@
                 3,
                 4,
                 5,
-                6
+                6,
+                7
             ]
         }
     ],
@@ -98,10 +99,10 @@
             "mesh" : 4,
             "name" : "aikon kiban.001",
             "rotation" : [
-                -0.5,
-                0.4999999701976776,
-                0.4999999701976776,
-                -0.5
+                -0.4272191524505615,
+                0.42721912264823914,
+                0.5634570717811584,
+                -0.5634571313858032
             ],
             "scale" : [
                 2.1348953247070312,
@@ -109,9 +110,9 @@
                 3.216747760772705
             ],
             "translation" : [
-                7.376706123352051,
+                5.6337890625,
                 0,
-                -9.19031810760498
+                -9.036195755004883
             ]
         },
         {
@@ -131,17 +132,17 @@
             "translation" : [
                 0,
                 0.22681669890880585,
-                1.5536943674087524
+                0.3067272901535034
             ]
         },
         {
             "mesh" : 6,
             "name" : "setumei2",
             "rotation" : [
-                -0.7071068286895752,
-                0,
-                0,
-                -0.7071068286895752
+                -0.7005137801170349,
+                -0.0963350236415863,
+                0.09633499383926392,
+                -0.7005137801170349
             ],
             "scale" : [
                 0,
@@ -149,9 +150,29 @@
                 0
             ],
             "translation" : [
-                4.3548808097839355,
+                2.727262496948242,
                 -0.18145334720611572,
-                -9.178746223449707
+                -8.209356307983398
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "setumei3",
+            "rotation" : [
+                0.5004822611808777,
+                0.5004822015762329,
+                -0.4995173215866089,
+                0.4995173215866089
+            ],
+            "scale" : [
+                0,
+                0,
+                0
+            ],
+            "translation" : [
+                0,
+                0.19369912147521973,
+                2.0272631645202637
             ]
         }
     ],
@@ -161,84 +182,17 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 0,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 0,
+                        "node" : 3,
                         "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 0,
-                        "path" : "scale"
                     }
                 }
             ],
-            "name" : "setumeiAction",
+            "name" : "cameraAction",
             "samplers" : [
                 {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 48
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 49
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 50
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 1,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 1,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 1,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "zyairoAction",
-            "samplers" : [
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 51
-                },
-                {
-                    "input" : 47,
+                    "input" : 51,
                     "interpolation" : "LINEAR",
                     "output" : 52
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 53
                 }
             ]
         },
@@ -247,39 +201,34 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 2,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 2,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 2,
+                        "node" : 5,
                         "path" : "scale"
                     }
                 }
             ],
-            "name" : "aikon kibanAction",
+            "name" : "setumei1Action",
             "samplers" : [
                 {
-                    "input" : 47,
+                    "input" : 53,
                     "interpolation" : "LINEAR",
                     "output" : 54
-                },
+                }
+            ]
+        },
+        {
+            "channels" : [
                 {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 55
-                },
+                    "sampler" : 0,
+                    "target" : {
+                        "node" : 6,
+                        "path" : "scale"
+                    }
+                }
+            ],
+            "name" : "setumei2Action",
+            "samplers" : [
                 {
-                    "input" : 47,
+                    "input" : 55,
                     "interpolation" : "LINEAR",
                     "output" : 56
                 }
@@ -290,170 +239,17 @@
                 {
                     "sampler" : 0,
                     "target" : {
-                        "node" : 3,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 3,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 3,
+                        "node" : 7,
                         "path" : "scale"
                     }
                 }
             ],
-            "name" : "cameraAction",
+            "name" : "setumei3Action",
             "samplers" : [
                 {
-                    "input" : 57,
+                    "input" : 53,
                     "interpolation" : "LINEAR",
-                    "output" : 58
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 59
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 60
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 4,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 4,
-                        "path" : "rotation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 4,
-                        "path" : "scale"
-                    }
-                }
-            ],
-            "name" : "aikon kiban.001Action",
-            "samplers" : [
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 61
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 62
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 63
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 5,
-                        "path" : "scale"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 5,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 5,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "setumei1Action",
-            "samplers" : [
-                {
-                    "input" : 57,
-                    "interpolation" : "LINEAR",
-                    "output" : 64
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 65
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 66
-                }
-            ]
-        },
-        {
-            "channels" : [
-                {
-                    "sampler" : 0,
-                    "target" : {
-                        "node" : 6,
-                        "path" : "scale"
-                    }
-                },
-                {
-                    "sampler" : 1,
-                    "target" : {
-                        "node" : 6,
-                        "path" : "translation"
-                    }
-                },
-                {
-                    "sampler" : 2,
-                    "target" : {
-                        "node" : 6,
-                        "path" : "rotation"
-                    }
-                }
-            ],
-            "name" : "setumei2Action",
-            "samplers" : [
-                {
-                    "input" : 57,
-                    "interpolation" : "LINEAR",
-                    "output" : 67
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 68
-                },
-                {
-                    "input" : 47,
-                    "interpolation" : "LINEAR",
-                    "output" : 69
+                    "output" : 57
                 }
             ]
         }
@@ -737,6 +533,20 @@
                         "TEXCOORD_0" : 45
                     },
                     "indices" : 46,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "\u30c6\u30ad\u30b9\u30c8.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 47,
+                        "NORMAL" : 48,
+                        "TEXCOORD_0" : 49
+                    },
+                    "indices" : 50,
                     "material" : 9
                 }
             ]
@@ -1148,75 +958,43 @@
         {
             "bufferView" : 47,
             "componentType" : 5126,
-            "count" : 2,
+            "count" : 16758,
             "max" : [
-                83.33333333333333
+                4.8759765625,
+                0.3243851661682129,
+                0.0859375
             ],
             "min" : [
-                6.666666666666667
+                0.05712890625,
+                0,
+                -0.84130859375
             ],
-            "type" : "SCALAR"
+            "type" : "VEC3"
         },
         {
             "bufferView" : 48,
             "componentType" : 5126,
-            "count" : 2,
+            "count" : 16758,
             "type" : "VEC3"
         },
         {
             "bufferView" : 49,
             "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
+            "count" : 16758,
+            "type" : "VEC2"
         },
         {
             "bufferView" : 50,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
+            "componentType" : 5123,
+            "count" : 26172,
+            "type" : "SCALAR"
         },
         {
             "bufferView" : 51,
             "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 52,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 53,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 54,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 55,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 56,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 57,
-            "componentType" : 5126,
-            "count" : 2001,
+            "count" : 131,
             "max" : [
-                83.33333333333333
+                5.416666666666667
             ],
             "min" : [
                 0
@@ -1224,76 +1002,52 @@
             "type" : "SCALAR"
         },
         {
-            "bufferView" : 58,
+            "bufferView" : 52,
             "componentType" : 5126,
-            "count" : 2001,
+            "count" : 131,
             "type" : "VEC4"
         },
         {
-            "bufferView" : 59,
+            "bufferView" : 53,
             "componentType" : 5126,
-            "count" : 2,
+            "count" : 151,
+            "max" : [
+                6.25
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 54,
+            "componentType" : 5126,
+            "count" : 151,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 60,
+            "bufferView" : 55,
             "componentType" : 5126,
-            "count" : 2,
+            "count" : 161,
+            "max" : [
+                6.666666666666667
+            ],
+            "min" : [
+                0
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 56,
+            "componentType" : 5126,
+            "count" : 161,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 61,
+            "bufferView" : 57,
             "componentType" : 5126,
-            "count" : 2,
+            "count" : 151,
             "type" : "VEC3"
-        },
-        {
-            "bufferView" : 62,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 63,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 64,
-            "componentType" : 5126,
-            "count" : 2001,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 65,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 66,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
-        },
-        {
-            "bufferView" : 67,
-            "componentType" : 5126,
-            "count" : 2001,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 68,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 69,
-            "componentType" : 5126,
-            "count" : 2,
-            "type" : "VEC4"
         }
     ],
     "bufferViews" : [
@@ -1534,123 +1288,63 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 8,
+            "byteLength" : 201096,
             "byteOffset" : 11763564
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763572
+            "byteLength" : 201096,
+            "byteOffset" : 11964660
         },
         {
             "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11763596
+            "byteLength" : 134064,
+            "byteOffset" : 12165756
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763628
+            "byteLength" : 52344,
+            "byteOffset" : 12299820
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763652
+            "byteLength" : 524,
+            "byteOffset" : 12352164
         },
         {
             "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11763676
+            "byteLength" : 2096,
+            "byteOffset" : 12352688
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763708
+            "byteLength" : 604,
+            "byteOffset" : 12354784
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763732
+            "byteLength" : 1812,
+            "byteOffset" : 12355388
         },
         {
             "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11763756
+            "byteLength" : 644,
+            "byteOffset" : 12357200
         },
         {
             "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11763788
+            "byteLength" : 1932,
+            "byteOffset" : 12357844
         },
         {
             "buffer" : 0,
-            "byteLength" : 8004,
-            "byteOffset" : 11763812
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32016,
-            "byteOffset" : 11771816
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11803832
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11803856
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11803880
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11803904
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11803936
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24012,
-            "byteOffset" : 11803960
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11827972
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11827996
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24012,
-            "byteOffset" : 11828028
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 24,
-            "byteOffset" : 11852040
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 32,
-            "byteOffset" : 11852064
+            "byteLength" : 1812,
+            "byteOffset" : 12359776
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 11852096,
+            "byteLength" : 12361588,
             "uri" : "zyairosensa.bin"
         }
     ]
